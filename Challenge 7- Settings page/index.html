@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        .settings-container {
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .head {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            width: 60%;
+            margin: auto;
+            
+        }
+        .items{
+            width: 20%;
+            flex:1;
+            margin:20px;
+            
+        }
+        label{
+            font-size: small;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        .title{
+            font-family: Roboto;
+            font-variant: normal;
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: 600;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div>Settings </div>
+        <div> - O X </div>
+    </div>
+    <div class="head">
+        <div class="title"> Windows Settings </div>
+        <div><input type="text" placeholder="Find a setting"></div>
+    </div>
+    <div class="settings-container">
+        <div class="row">
+            <div class="items">
+                <image alt="system"></image>
+                <div><b>System</b></div>
+                <div> <label>Display sound, notifications</label></div>
+            </div>
+            <div class="items">
+                <image alt="devices"></image>
+                <div><b>Devices</b></div>
+                <div><label>Bluetooth, printers, mouse</label></div>
+            </div>
+            <div class="items">
+                <image alt="phone"></image>
+                <div><b>Phone</b></div>
+                <div><label>Link yout Android, Iphone</label></div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="items">
+                <image alt="Network"></image>
+                <div><b>Network and Internet</b></div>
+                <div><label>Wi-Fi, Airplane Mode, VPN</label></div>
+            </div>
+            <div class="items">
+                <image alt="Personalization"></image>
+                <div><b>Personalization</b></div>
+                <div><label>Background, lock screen, colours</label></div>
+            </div>
+            <div class="items">
+                <image alt="Apps"></image>
+                <div><b>Apps</b></div>
+                <div><label>Uninstall defaults, optional features</label></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="items">
+                <image alt="Accounts"></image>
+                <div> <b>Accounts</b></div>
+                <div><label>Your accounts, email, sync, work, other people</label></div>
+            </div>
+            <div class="items"></div>
+            <div class="items"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

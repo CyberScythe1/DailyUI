@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style>
+        body{
+            background-color: purple;
+            color: orange;
+            font-size: large;
+            text-align: center;
+            margin: 0;
+
+        }
+        button{
+            padding: 3px;
+            margin: 10px;
+        }
+        .form-container{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body class="form-container">
+    <div >
+    <h1>Registration Form </h1>
+   <div style="margin-bottom: 10px;">
+  <label for="email"><b>Email:</b></label><br>
+  <input id="email" type="email">
+</div>
+
+<div style="margin-bottom: 10px;">
+  <label for="password"><b>Password:</b></label><br>
+  <input id="password" type="password">
+</div>
+    <button>Cancel</button><button>Confirm</button>
+    </div>
+</body>
+</html>

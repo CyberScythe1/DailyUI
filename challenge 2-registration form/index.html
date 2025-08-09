@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        .form-row{
+            display:flex;
+            flex-direction: column;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            gap:10px;
+            background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        h1{
+            color: white;
+        }
+        label{
+            width: 150px;
+            padding: 5px;
+        }
+        input{
+            width:200px;
+            padding:5px
+        }
+        div{
+            display: flex;
+        }
+        body{
+            margin:0;
+        }
+        </style>
+</head>
+<body>
+    <form>
+    <div class="form-row">
+    <h1>Registration form</h1>
+    <div><label for="card"> Card number: </label><input id="card" type="text" inputmode="numeric"></div>
+    <div><label for="name"> Name as on Card : </label><input id="name" type="text"></div>
+    <div><label for="Expiry"> Expiry : </label><input id="Expiry" type="month"></div>    
+    <div><label for="CVV"> CVV : </label><input id="CVV" type="text" maxlength="3" minlength="3"></div>
+    <button type="Submit">Submit</button>
+</div>
+    
+    </form>
+</body>
+</html>
