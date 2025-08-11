@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share</title>
+    <style>
+        .root{
+            display: flex;
+            align-items: center;;
+            height: 100vh;
+            justify-content: center;
+            flex-direction: column;
+        }
+        button{
+            border-radius: 35%;
+            border-bottom-right-radius: 0;
+        }
+        div{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .post{
+            width: 250px;
+            height: 250px;
+            border: 7px solid black;
+            border-radius: 25%;
+            box-sizing: border-box;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="root">
+    <div>
+    <img class="post" src="post.img"></div><div>
+    Share to :
+    <button><img src="twitter.jpg"> Twitter </button>
+    <button><img src="Whatsapp.jpg"> Whatsapp </button>
+    <button><img src="Copy.jpg"> Copy Link </button>
+    </div>
+    </div>
+</body>
+</html>
